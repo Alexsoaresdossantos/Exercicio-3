@@ -21,7 +21,24 @@ const parentList = [
     name: "Lucas",
     children: "Samira",
   },
+  
 ]
+
+
+
+text = "<ul>";
+parentList.forEach(function(objeto){
+  
+  for (var chave in objeto)
+    console.log[chave]
+     
+    document.body.innerHTML+="<li>" + objeto["name"] +" é pai de " + objeto[chave] + "</li>"
+    
+});
+
+text += "</ul>";
+
+// document.getElementById("Listas").innerHTML = text;
 
 function renderParentList(list){
   console.log(list);
